@@ -7,4 +7,4 @@ I then starrted adding the CSS and fine tuning it based on screen size
 
 Note that this is just the CSS and HTML as I move along, I will add more things such as forms and different pages. 
 
-Link: 
+Link:  https://raynagweinreb.github.io/MyPortfolio/
