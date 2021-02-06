@@ -1,0 +1,159 @@
+/* Styling header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #e779cc;
+    color: #fff;
+  }
+  /* styling nav*/
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style-type:none;
+    flex-wrap: wrap;
+  }
+  /* styling nav links*/
+  nav a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: large;
+  }
+  /*Set font for h1 tags*/
+  h1 {
+      font-family: Lucida Handwriting ;
+      margin-left: 35%;
+  }
+/* set image standards*/
+  img {
+      margin-top: 15px;
+      max-height: 300px;
+      margin-bottom: 15px;
+  }
+  /* set font family for all h2 tags*/
+  h2 {
+      font-family:Lucida Handwriting ;
+  }
+  /* align about me slghtly to the left of center */
+  #AboutMe {
+      text-align: center;
+      margin-left: 15%;
+  }
+  /* float about me image left*/
+  #Float-left {
+    float:left;
+    margin-right: 25px;
+}
+/* set font anf fomrating for about me section */
+#abouttext {
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+}
+  /* set background and text for portolfio section*/
+  #MyPortfolio {
+      text-align: center;
+      background-color: #f3abe1 ;
+      padding-top: 15px;
+      margin-bottom: 0px;
+      clear: both;
+      margin: 0;
+
+  /*set formatting for portfolio section */  
+  }
+  #portfolio {
+      max-width: 100%;
+      background-color: #f3abe1;
+      padding: 25px;
+      flex-wrap: wrap;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+
+    
+  }
+  /* set formatting for portolio pictures */
+  .portimg {
+      justify-content: center;
+      max-height: 200px;
+      border: 5px solid #000000;
+      opacity: 0.7;
+      margin-right: 5px;
+  }
+  /* set format for Scratch text overlay*/
+  #scratch {
+        position: absolute;
+        left: 35%;
+        font-family: Lucida Handwriting;
+        font-size: 20px;
+
+  }
+  /* set over for portolio pictures */
+  .portimg:hover {
+      opacity: 0.3;
+  }  
+
+  /* set format for coming soon text overlay*/
+  #comingsoon {
+    position: absolute;
+    left: 51%;
+    font-family: Lucida Handwriting;
+    font-size: 20px;
+      
+  }
+
+    /* set contact me text formatting */
+    #ContactMe {
+        text-align: center;
+    }
+/* set footer settings*/
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style-type:none;
+    font-size: 25px;
+    flex-wrap: wrap;
+  }
+  /* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    h1 {
+        margin-left: 15%;
+    }
+    #scratch {
+        left: 14%;
+    }
+    #comingsoon {
+        left: 55%;
+    }
+    footer ul {
+        font-size: 18px;
+    }
+
+
+
+    }
+/* On screens that are 600px or less, sratch and coming soon text to overlay photos
+ set menu to correct format */
+@media screen and (max-width: 600px) {
+#scratch {
+    position: absolute;
+    left: 18%;
+    top: 172%;
+}
+#comingsoon {
+    position: absolute;
+    left: 19%;
+    top:203% ;
+}
+header {
+    flex-wrap: wrap;
+}
+}
