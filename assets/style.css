@@ -83,27 +83,13 @@ header {
       opacity: 0.7;
       margin-right: 5px;
   }
-  /* set format for Scratch text overlay*/
-  #scratch {
-        position: absolute;
-        left: 35%;
-        font-family: Lucida Handwriting;
-        font-size: 20px;
 
-  }
   /* set over for portolio pictures */
-  .portimg:hover {
+#portImg:hover {
       opacity: 0.3;
   }  
 
   /* set format for coming soon text overlay*/
-  #comingsoon {
-    position: absolute;
-    left: 51%;
-    font-family: Lucida Handwriting;
-    font-size: 20px;
-      
-  }
 
     /* set contact me text formatting */
     #ContactMe {
@@ -127,33 +113,19 @@ footer ul {
     h1 {
         margin-left: 15%;
     }
-    #scratch {
-        left: 14%;
-    }
-    #comingsoon {
-        left: 55%;
     }
     footer ul {
         font-size: 18px;
     }
 
 
-
-    }
-/* On screens that are 600px or less, sratch and coming soon text to overlay photos
- set menu to correct format */
-@media screen and (max-width: 600px) {
-#scratch {
-    position: absolute;
-    left: 18%;
-    top: 172%;
-}
-#comingsoon {
-    position: absolute;
-    left: 19%;
-    top:203% ;
-}
 header {
     flex-wrap: wrap;
 }
+.card-title { 
+    font-family: Lucida Handwriting;
+
+}
+a{
+    color:black
 }

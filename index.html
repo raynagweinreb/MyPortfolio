@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"/>
+
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Rayna Weinreb</title>
 </head>
 <body>
@@ -25,7 +28,7 @@
         <section id="about">
             <div>            
                 <h2 id="AboutMe"> About Me</h2>
-                <p id="abouttext"> <img id="Float-left" src="Pictureofme.jpg" alt="Picture of me"> 
+                <p id="abouttext"> <img id="Float-left" src="./images/Pictureofme.jpg" alt="Picture of me"> 
                     Meet Rayna <br>
                     Raised in Bend Oregon, I grew up hiking and skiing. I found a love for technology at a young age, helping my parents troubleshoot their phones and computers.<br>
                     I attended Linfield College and graduated with a bachelors in Business Information Systems in 2020. <br>
@@ -38,32 +41,71 @@
         <section>
             <h2 id="MyPortfolio"> My Portfolio</h2>
         <div id=portfolio>
-            <a href="https://scratch.mit.edu/projects/472618464/"><img class=portimg src="scratch.png" alt="scratch project picture"></a>
-                <aside id="scratch">Scratch Game Project</aside>
-            <img class=portimg src="pexels-vie-studio-4439444.jpg" alt="coming soon picture">
-            <aside id="comingsoon">More Coming Soon</aside>
-        </div>
+            <a href="https://scratch.mit.edu/projects/472618464/">
+            <div  class="card-columns">
+            <div class="card">
+            <div id="portImg" class="img-fluid" >
+                <img  class="card-img-top" src="./images/scratch.png" alt="Scratch game Photo" >
+                   <h4 class="card-title d-flex justify-content-center ">Scratch Game</h4>
+                </div>
+            </div>
+           <div class="card">
+            <div id="portImg" class="img-fluid" >
+                <a href="https://raynagweinreb.github.io/MoodMuse/">
+                    <img  class="card-img-top" src="./images/MoodMuse.png" alt="Mood Muse Photo" >
+                       <h4 class="card-title d-flex justify-content-center ">Mood Muse Project</h4>
+                    </div>
+                </div>
+                <div class="card">
+            <div id="portImg" class="img-fluid" >
+                <a href="https://raynagweinreb.github.io/WeatherDashboard/">
+                            <img  class="card-img-top" src="./images/weather dashboard.png" alt="weather dashboard Photo">
+                               <h4 class=" card-title d-flex justify-content-center ">Weather Dashboard</h4>
+                            </div>
+                        </div>
+                <div class="card">
+            <div id="portImg" class="img-fluid" >
+               <a href="https://raynagweinreb.github.io/DailyWorkScheduler/">
+                                <img  class="card-img-top" src="./images/Workday Scheduler Screenshot.png" alt="daily Scheduler Photo" >
+                                   <h4 class=" card-title d-flex justify-content-center ">Daily Scheduler</h4>
+                                </a>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+  
     </section>
-        <section>
-
-        </section>
+ 
         
-            
+            <section>
 
             <div>
                 <!-- Footer Section -->
                 <footer>
                 <h2 id="ContactMe">Contact Me</h2>
                 <ul>
-                <li> Email: raynagweinreb@gmail.com</li>
-                <li>Phone Number:541-420-1348</li>
-                <li><a rel="git" href="https://github.com/raynagweinreb/">GitHub Link</a></li>
+            <a href="mailto: raynagweinreb@gmail.com">
+                <i class="fa fa-envelope" aria-hidden="true">raynagweinreb@gmail.com</i>
+            </a>
+            <a href="tel:5414201347">
+                <i class="fa fa-phone" aria-hidden="true">541-420-1347</i>
+            </a>
+            <a href="https://github.com/raynagweinreb/">
+        <i class="fa fa-github-square" aria-hidden="true">GitHub</i>
+            </a>
+            <a href="https://www.linkedin.com/in/rayna-weinreb-946842189/">
+        <i class="fa fa-linkedin"  aria-hidden="true">Linkedin</i>
+    </a>
+
             </footer>
             </div>
         </ul>
         
             
-
+    </section>
     </main>
 </body>
 </html>
