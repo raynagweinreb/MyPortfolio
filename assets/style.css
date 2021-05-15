@@ -65,15 +65,8 @@ header {
   /*set formatting for portfolio section */  
   }
   #portfolio {
-      max-width: 100%;
-      background-color: #f3abe1;
-      padding: 25px;
-      flex-wrap: wrap;
-      justify-content: center;
-      display: flex;
-      align-items: center;
 
-    
+      background-color: #f3abe1;
   }
   /* set formatting for portolio pictures */
   .portimg {
